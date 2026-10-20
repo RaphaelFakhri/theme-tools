@@ -1,5 +1,19 @@
 # @shopify/theme-language-server-common
 
+## 2.23.2
+
+### Patch Changes
+
+- b9a862fb: Rebuild a theme graph that failed to build when a file changes. Before, the failed graph stayed until the language server restarted.
+- Updated dependencies [84a458be]
+- Updated dependencies [d9c843c3]
+- Updated dependencies [af297bab]
+- Updated dependencies [c81fc198]
+- Updated dependencies [02380e2f]
+  - @shopify/liquid-html-parser@2.10.3
+  - @shopify/theme-check-common@3.30.2
+  - @shopify/theme-graph@0.3.6
+
 ## 2.23.1
 
 ### Patch Changes

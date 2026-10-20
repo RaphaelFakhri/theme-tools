@@ -1,5 +1,16 @@
 # @shopify/theme-check-common
 
+## 3.30.2
+
+### Patch Changes
+
+- d9c843c3: Fix the line and character of an offense that ends at the end of a file. They were one character short, or on the previous line when the file ends with a newline.
+- af297bab: Parse `section` as a standalone tag. Removes the hybrid block form, whose forward scan for `{% endsection %}` made files with many `section` tags parse in quadratic time.
+- c81fc198: Fix the autofix for a filter chain that ends in several pipes (`{{ x | upcase | | }}`): LiquidHTMLSyntaxError now reports one trailing-pipe offense that removes them all, instead of two overlapping fixes that couldn't be applied together.
+- Updated dependencies [84a458be]
+- Updated dependencies [af297bab]
+  - @shopify/liquid-html-parser@2.10.3
+
 ## 3.30.1
 
 ### Patch Changes

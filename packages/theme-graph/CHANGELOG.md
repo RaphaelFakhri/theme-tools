@@ -1,5 +1,17 @@
 # shopify/theme-graph
 
+## 0.3.6
+
+### Patch Changes
+
+- 02380e2f: Build the theme graph for a theme without an `assets` folder. `getWebComponentMap` used to reject, so the language server never had a graph for that theme, even after the folder was created.
+- Updated dependencies [84a458be]
+- Updated dependencies [d9c843c3]
+- Updated dependencies [af297bab]
+- Updated dependencies [c81fc198]
+  - @shopify/liquid-html-parser@2.10.3
+  - @shopify/theme-check-common@3.30.2
+
 ## 0.3.5
 
 ### Patch Changes

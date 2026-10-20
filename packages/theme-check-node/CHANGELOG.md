@@ -1,5 +1,21 @@
 # @shopify/theme-check-node
 
+## 3.30.2
+
+### Patch Changes
+
+- 04110ed6: Report configs that extend each other instead of hanging while resolving them.
+- Updated dependencies [84a458be]
+- Updated dependencies [fca4a62b]
+- Updated dependencies [d9c843c3]
+- Updated dependencies [af297bab]
+- Updated dependencies [c81fc198]
+- Updated dependencies [02380e2f]
+  - @shopify/liquid-html-parser@2.10.3
+  - @shopify/theme-check-docs-updater@3.30.2
+  - @shopify/theme-check-common@3.30.2
+  - @shopify/theme-graph@0.3.6
+
 ## 3.30.1
 
 ### Patch Changes
